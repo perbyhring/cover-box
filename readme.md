@@ -4,9 +4,6 @@ A curry-function which returns width and height for a fixed-format child-element
 
 Similar to the css-rule `background-size: cover`.
 
-## Install
-`yarn add cover-box`
-
 ## Usage
 
 ### Import
