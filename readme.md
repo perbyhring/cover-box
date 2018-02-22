@@ -35,13 +35,13 @@ cover169(100,200)
 
 ### Examples
 
-#### Contain a 16:9-`<div></div>` to the viewport:
+#### A 16:9-`<div></div>` covering the viewport:
 
 ```
 const mybox = document.querySelector('.my-box');
 
 const setSize = () => {
-  const size = containBox(16,9)(window.innerWidth,window.innerHeight);
+  const size = coverBox(16,9)(window.innerWidth,window.innerHeight);
   mybox.style.width = `${size[0]}px`;
   mybox.style.height = `${size[1]}px`;
 };
