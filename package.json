@@ -1,6 +1,6 @@
 {
   "name": "cover-box",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A curry-function which returns width and height for a child-box you want to cover a parent-box. Similar to css background-size:cover",
   "main": "dist/build.js",
   "scripts": {
