@@ -1,8 +1,11 @@
-# contain-box
+# cover-box
 
 A curry-function which returns width and height for a fixed-format child-element you want to cover a dynamic-format parent-element.
 
 Similar to the css-rule `background-size: cover`.
+
+## Install
+`yarn add cover-box`
 
 ## Usage
 
