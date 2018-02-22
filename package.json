@@ -1,0 +1,14 @@
+{
+  "name": "cover-box",
+  "version": "1.0.0",
+  "description": "A curry-function which returns width and height for a child-box you want to cover a parent-box. Similar to css background-size:cover",
+  "main": "dist/build.js",
+  "scripts": {
+    "build": "browserify cover-box.js --standalone coverBox > dist/build.js"
+  },
+  "author": "Per Byhring (perbyhring@outlook.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^14.5.0"
+  }
+}
